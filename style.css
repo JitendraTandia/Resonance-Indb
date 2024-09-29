@@ -19,7 +19,8 @@ body{
     margin-top: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: space-between;
     /* position: fixed; */
 
 }
@@ -27,6 +28,8 @@ body{
 img{
     height: 50px;
     padding: 50px;
+    margin-left: 30px;
+    
 }
 
 .menu{
@@ -40,6 +43,7 @@ img{
 
 .button-call{
     padding: 10px;
+    margin-right: 60px;
     /* background-color: #ff0000; */
 }
 
@@ -54,20 +58,57 @@ button{
 
 .hero{
     /* max-width: 60%; */
+    width: 100%;
     padding: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 #left{
     padding: 30px 50px;
 }
 
-#right{
-    width: 300px;
-    height: 300px;
+.circle{
+    width: 350px;
+    height: 350px;
     background-color: black;
     border-radius: 100%;
-    margin-top: 20px;
+    margin-right: 90px;
+    margin-bottom: 50px;
 }
+
+.secondary-btn{
+    height: 60px;
+    width: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 15px 50px; */
+    border-radius: 20px;
+    background-color: #192F59;
+    color: white;
+    border: none;
+    margin-left: 30px; 
+    margin-top: 50px; 
+    font-weight: bold;
+}
+
+.main-heading{
+   margin-left: 30px;
+    font-size: 30px;
+    line-height: 70px;
+}
+
+.second-heading{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 20px;
+   
+}
+
+#btn-arrow{
+    margin-right: 50px;
+}
+
